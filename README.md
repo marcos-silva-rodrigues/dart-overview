@@ -6,3 +6,8 @@
 + utilizada no flutter;
 + fortemente tipado;
 + maior suporte a OO do que o js normal;
+
+Compile dart to js
+```bash
+dart compile js -O2 -o ./inBrowser/script.js ./inBrowser/script.dart 
+```
